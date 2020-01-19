@@ -1,0 +1,51 @@
+/*
+* 框架用到的变量：背景色，字号，字体图标字号，菜单，顶部导航（面包屑，用户）
+*/
+
+/* 主题色 */
+$primary-color:#E90217;
+
+/* 背景色 */
+$bgcolor-white: #fff;
+$bgcolor-gray: #eee;
+
+/* 字号 */
+$font-size-largest:20px;
+$font-size-large:16px;
+$font-size-normal:14px;
+$font-size-small:12px;
+
+/* 字体图标字号 */
+$iconfont-size-small:12px;
+
+/* 文字主颜色 */
+$font-color:#333;
+
+/* 登录页 */
+$login-bgcolor: $primary-color;
+$login-border-color: #fff;  // 横条
+$login-input-bgcolor: #fff;
+$login-input-border-color: #999;
+$login-error-color:#e60012; // 错误提示
+$login-btn-bgcolor:$primary-color;
+$login-btn-color:#fff;
+$login_messageVerify-color:#00ace6;  // 短信验证码
+$login_messageVerify-color-disabled:#bfbfbf;  // 短信验证码-按钮置灰状态
+
+/* 主框架-菜单 */
+$sidebar-bgcolor: $primary-color;
+/*$sidebar-active-bgcolor: #db0000;*/
+$sidebar-active-bgcolor: rgba(0,0,0,0.2);
+$sidebar-item-color:#fff;
+
+/* 主框架-面包屑 */
+$breadcrumb-text-color:$primary-color;
+
+/* 主框架-右侧用户区 */
+$navbar-changeCompany-color:#fff;
+$navbar-changeCompany-bgcolor:#FFA414;
+
+/* zTree 未整理完 */
+$ztree-curSelectedNode-bgcolor:#e4e8f1;
+
+

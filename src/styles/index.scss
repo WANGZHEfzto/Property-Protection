@@ -1,0 +1,144 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div:focus {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.no-wrap {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+//main-container全局样式
+.app-main {
+  min-height: 100%
+}
+
+.app-container {
+  padding: 20px;
+}
+
+body,
+html {
+  line-height: 1;
+  font-family: 'Microsoft YaHei', '微软雅黑', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  // user-select: none;
+  user-select: text;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/*设置滚动条的样式*/
+::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+  background: #fff;
+}
+
+/*滚动槽*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 6px;
+}
+
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #cccccc;
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #cccccc;
+  width: 6px;
+}
+
+.el-menu-item i.iconfont {
+  color: #fff;
+}
+
+.el-dropdown .el-dropdown-selfdefine:focus:active,
+.el-dropdown .el-dropdown-selfdefine:focus:not(.focusing) {
+  outline: none
+}
+
+.el-carousel {
+  overflow: hidden;
+}
+
+.content-html {
+
+  div,
+  p {
+    line-height: 25px;
+    color: #645c5c;
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+}
+
+// 设置pdf
+#item {
+  text-align: center;
+  position: relative;
+}
+
+#item .btn {
+  position: absolute;
+  bottom: -17px;
+  left: 50%;
+  transform: translate(0, 50%);
+}
